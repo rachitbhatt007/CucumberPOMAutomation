@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="30.652">
+<testcase classname="Cloning Feature" name="Login to the website and navigate to product page" time="11.92">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+Then user is logged in......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cloning Feature" name="Cloning Product" time="12.81">
+<system-out><![CDATA[Given user is on product page...............................................passed
+When user click on clone icon...............................................passed
+And save the product with new name..........................................passed
+Then a success alert is shown on top of the page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cloning Feature" name="checking cloned product and changing price" time="5.619">
+<system-out><![CDATA[Given product is cloned.....................................................passed
+When user checks the added product name.....................................passed
+And click on price and change its price.....................................passed
+Then click on save to save the item.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
